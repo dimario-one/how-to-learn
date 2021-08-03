@@ -395,8 +395,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .footer__column_link a {
-  display: flex; 
-  align-items: center; 
+  display: flex;
+  align-items: center;
   color: white;
   text-decoration: none;
 }

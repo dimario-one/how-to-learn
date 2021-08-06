@@ -104,6 +104,7 @@
 .two-colums__brief { 
   width: 175px;
   margin-top: 0;
+  margin-bottom: 0;
   padding: 0;
   line-height: 1.2;
   font-size: 18px;
@@ -166,6 +167,7 @@
 
 .table {
   margin: 0;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -174,6 +176,7 @@
   margin-right: auto;
   margin-bottom: 100px;
   list-style-type: none;
+  text-decoration: none;
 }
 
 .table__cell {
@@ -189,6 +192,7 @@
 }
 
 .table__heading {
+  margin: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
@@ -256,7 +260,7 @@
   display: flex;
   position: relative;
   flex-direction: column;
-  background-color: black;
+  background-color: #000000;
   z-index: 0;
  }
   
@@ -306,7 +310,7 @@
   display: flex;
   position: relative;
   min-height: 350px;
-  background-color: black;
+  background-color: #000000;
 }
 
 .footer__columns {
@@ -321,7 +325,7 @@
 
 .logo_place_footer {
   display: flex;
-  height: 33px; 
+  height: 35px; 
 }
 
 .footer__author {
@@ -333,7 +337,7 @@
   color: white;
 }
 
-.column__content_copyright {
+.footer__column_content_copyright {
  display: flex;
   flex-direction: column;
   justify-content: space-between;

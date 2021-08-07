@@ -189,6 +189,11 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.table__text:last-child {
+  margin-bottom: 0;
 }
 
 .table__heading {
@@ -196,6 +201,7 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .feynman {
@@ -260,7 +266,7 @@
   display: flex;
   position: relative;
   flex-direction: column;
-  background-color: #000000;
+  background-color: #1f1f1f;
   z-index: 0;
  }
   
@@ -310,7 +316,7 @@
   display: flex;
   position: relative;
   min-height: 350px;
-  background-color: #000000;
+  background-color: #1f1f1f;
 }
 
 .footer__columns {
@@ -337,9 +343,12 @@
   color: white;
 }
 
-.footer__column_content_copyright {
- display: flex;
+.footer__column {
+  display: flex;
   flex-direction: column;
+}
+
+.footer__column_content_copyright {
   justify-content: space-between;
   flex-basis: 711px; 
 }

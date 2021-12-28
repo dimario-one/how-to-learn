@@ -16,3 +16,4 @@ Flexbox;
 Фйловая структура Nested БЭМ;    
 Работа с медиафайлами (HTML-video, iframe);   
 Вёрстка по макету в Figma.   
+Ссылка на проект - https://github.com/dimario-one/how-to-learn
